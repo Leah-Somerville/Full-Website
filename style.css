@@ -1,0 +1,48 @@
+/* Noto Serif Khojki Google Font link */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Khojki:wght@400;700&display=swap');
+
+/* BASIC STYLES */
+body{
+    font-family: 'Noto Serif Khojki', serif;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+    line-height: 1.5;
+    background-color: #A884CF;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.btn-1{
+    height: 38px;
+    background-color: #EBA678;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffffff;
+}
+
+.light, .dark{
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.light{
+    background-color: #0E3557;
+    color: #bcdbf5;
+}
+
+.dark{
+    color: #0E3557;
+    background-color: #bcdbf5;
+}
