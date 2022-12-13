@@ -160,3 +160,25 @@ i{
 .fa-js{
     color: #E5989B;
 }
+
+
+/* SECTION */
+#about{
+    background-color: #bcdbf5;
+    padding: 20px;
+}
+
+#about .container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 50px;
+}
+
+#about .main-col{
+    color: #0E3557;
+}
+
+#about .sidebar{
+    margin-top: 10px;
+}
+
