@@ -112,7 +112,7 @@ a:hover{
 
 /* NEWSLETTER */
 #newsletter{
-    background-color: #53546F;
+    background-color: #0E3557;
     padding: 15px;
     color: #BBBBD8;
 } 
@@ -128,3 +128,35 @@ a:hover{
     width: 250px;
 }
 
+
+/* BOXES */
+#boxes{
+    margin-top: 20px;
+}
+
+#boxes .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box{
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+}
+
+i{
+    font-size: 225px;
+}
+
+.fa-html5{
+    color: #EBA678;
+}
+
+.fa-css3-alt{
+    color: #bcdbf5;
+}
+
+.fa-js{
+    color: #E5989B;
+}
