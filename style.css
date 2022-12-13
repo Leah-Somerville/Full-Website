@@ -182,3 +182,27 @@ i{
     margin-top: 10px;
 }
 
+
+
+/* SERVICES */
+#services .container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 50px;
+}
+
+#services li{
+    border: 1px solid #E5989B;
+    padding: 20px;
+    margin-bottom: 5px;
+    background-color: #d4b5f5;
+}
+
+#services .sidebar{
+    margin-top: 10px;
+}
+
+#services input, #services textarea{
+    padding: 5px;
+    width: 90%;
+}
