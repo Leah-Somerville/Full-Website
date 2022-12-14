@@ -206,3 +206,14 @@ i{
     padding: 5px;
     width: 90%;
 }
+
+
+
+/* FOOTER */
+footer{
+    background-color: #0E3557;
+    color: #bcdbf5;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
