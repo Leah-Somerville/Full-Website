@@ -217,3 +217,28 @@ footer{
     text-align: center;
     margin-top: 20px;
 }
+
+/* MEDIA QUERIES */
+@media (max-width: 768px) {
+    header .container,
+    #newsletter .container,
+    #boxes .container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+
+    }
+
+    #showcase .container{
+        padding-bottom: 50px;
+    }
+
+    .box{
+        width: 80%;
+    }
+
+    #service .container, #about .container{
+        grid-template-columns: 1fr;
+    }
+}
